@@ -1,3 +1,26 @@
+html, body{
+	height:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+}
+
+#page {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.anchorClass{
+	position:relative;
+	width:100%;
+	min-width: 960px;
+}
+
+p { padding: 0; margin: 0;}
+
 
 
 #what-we-do {
@@ -660,103 +683,6 @@
 	min-width: 1024px;
 }
 
-.next-slide, .prev-slide {
-	position: absolute;
-	display: block;
-	width: 100px;
-	height: 100%;
-	cursor: pointer;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	top: 0;
-}
-.next-slide {
-	background-image: url(images/right-arrow.png);
-	background-size: 16px auto;
-	background-position: 0 200px;
-	display: none;
-	right: -16px;
-}
-.prev-slide {
-	background-image: url(images/left-arrow.png);
-	background-size: 16px auto;
-	background-position: 84px 200px;
-	left: -100px;
-	display: none;
-	text-align: right;
-}
-.next-slide.arrow2 {
-	background-image: url(images/right-arrow2.png);
-	background-size: 16px auto;
-	background-position: 0 200px;
-	right: -16px;
-}
-.prev-slide.arrow2 {
-	background-image: url(images/left-arrow2.png);
-	background-size: 16px auto;
-	background-position: 84px 200px;
-	display: none;
-	text-align: right;
-}
-.next-slide:hover, .next-slide.arrow2:hover {
-	background-image: url(images/left_ro.png);
-}
-.prev-slide:hover, .prev-slide.arrow2:hover {
-	background-image: url(images/right_ro.png);
-}
-.light_next:hover, .dark_next:hover {
-	background-image: url(images/next_ro.png);
-}
-
-.light_next, .dark_next {
-	display: block;
-	position: absolute;
-	bottom: -3px;
-	width: 60px;
-	height: 58px;
-	z-index: 999;
-	left: 50%;
-	margin-left: -30px;
-	cursor: pointer;
-}
-
-.light_next {
-	background-image: url(images/next_light.png);
-}
-
-.dark_next {
-	background-image: url(images/next_dark.png);
-}
-
-.contact_next {
-	display: block;
-	position: absolute;
-	bottom: -3px;
-	width: 146px;
-	height: 58px;
-	line-height: 58px;
-	left: 50%;
-	margin-left: -73px;	
-	background-image: url(images/contact.png);
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-family: 'Oswald', sans-serif;
-	vertical-align: middle;
-	text-align: center;
-	cursor: pointer;	
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-.contact_next:hover {
-	background-image: url(images/contact_ro.png);
-}
 
 .carousel > .carousel-inner {
 	color: #fff;
